@@ -1,0 +1,64 @@
+﻿<Window x:Class="PairsGame.Views.Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:PairsGame.ViewModels"
+        mc:Ignorable="d"
+        Title="Game" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="SlideBorder" TargetType="Border">
+            <Setter Property="BorderThickness" Value="3"/>
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="BorderBrush" Value="LimeGreen"/>
+                    <Setter Property="BorderThickness" Value="3"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="true">
+                    <Setter Property="BorderBrush" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <ControlTemplate  x:Key="CardButton" TargetType="Button">
+            <Border Style="{StaticResource SlideBorder}" BorderBrush="{Binding BorderBrush}">
+                <Image Stretch="Fill" Source="{Binding SlideImage}" />
+            </Border>
+        </ControlTemplate>
+    </Window.Resources>
+    <DockPanel>
+        <DockPanel.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/PairsGame;component/Resources/black_background.jpg"/>
+        </DockPanel.Background>
+        <Menu Name="MainMenu" DockPanel.Dock="Top" >
+            <MenuItem Name="MenuItemFile" Header="_File">
+                <MenuItem Name="MenuItemFileNewGame" Header="_New Game" Click="MenuItemFileNewGame_Click"/>
+                <MenuItem Name="MenuItemFileOpenGame" Header="_Open Game" Click="MenuItemFileOpenGame_Click" />
+                <MenuItem Name="MenuItemFileSaveGame" Header="_Save Game" Click="MenuItemFileSaveGame_Click"  />
+                <MenuItem Name="MenuItemFileStatistics" Header="_Statistics" Click="MenuItemFileStatistics_Click"/>
+                <Separator/>
+                <MenuItem Name="MenuItemFileExit" Header="_Exit" Click="MenuItemFileExit_Click" />
+            </MenuItem>
+            <MenuItem Name="MenuItemOptions" Header="_Options">
+                <MenuItem Name="MenuItemOptions4x4" Header="_Table 4x4" Click="MenuItemOptions4x4_Click"/>
+                <MenuItem Name="MenuItemOptions6x6" Header="_Table 6x6" Click="MenuItemOptions6x6_Click" />
+                <MenuItem Name="MenuItemOptionsaxb" Header="_Table AxB" Click="MenuItemOptionsaxb_Click"  />
+            </MenuItem>
+            <MenuItem Name="MenuItemHelp" Header="_Help">
+                <MenuItem Name="MenuItemHelpAbout" Header="_About" Click="MenuItemHelpAbout_Click"/>
+            </MenuItem>
+        </Menu>
+        <DockPanel>
+            <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center" Text="{Binding Timer.Time, StringFormat=Time: {0}}" Foreground="Red" FontSize="24" />
+            <Grid Name="cardGrid"  DockPanel.Dock="Bottom" DataContext="{Binding Slides}" IsEnabled="{Binding areSlidesActive}" Margin="10">
+                <Grid.Resources>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Margin" Value="1" />
+                        <Setter Property="Grid.Row" Value="{Binding GridRow}" />
+                        <Setter Property="Grid.Column" Value="{Binding GridColumn}" />
+                    </Style>
+                </Grid.Resources>
+            </Grid>
+
+        </DockPanel>
+    </DockPanel>
+</Window>

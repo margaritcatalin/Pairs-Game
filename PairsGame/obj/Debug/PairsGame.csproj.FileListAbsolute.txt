@@ -1,0 +1,54 @@
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\bin\Debug\PairsGame.exe.config
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\bin\Debug\PairsGame.exe
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\bin\Debug\PairsGame.pdb
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.csprojResolveAssemblyReference.cache
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\App.g.cs
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\PairsGame_MarkupCompile.cache
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\PairsGame_MarkupCompile.lref
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.g.resources
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.Properties.Resources.resources
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.csproj.GenerateResource.cache
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.csproj.CoreCompileInputs.cache
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.exe
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.pdb
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\Views\Account.g.cs
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\Views\MainWindow.g.cs
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\Views\Account.baml
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\Views\MainWindow.baml
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\Views\Game.g.cs
+c:\users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\Views\Game.baml
+C:\Users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\Views\AccountForm.g.cs
+C:\Users\catal\onedrive\documente\visual studio 2017\Projects\PairsGame\PairsGame\obj\Debug\Views\AccountForm.baml
+C:\Projects\PairsGame\PairsGame\bin\Debug\PairsGame.exe.config
+C:\Projects\PairsGame\PairsGame\bin\Debug\PairsGame.exe
+C:\Projects\PairsGame\PairsGame\bin\Debug\PairsGame.pdb
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\Account.g.cs
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\AccountForm.g.cs
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\Game.g.cs
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\MainWindow.g.cs
+C:\Projects\PairsGame\PairsGame\obj\Debug\App.g.cs
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame_Content.g.cs
+C:\Projects\PairsGame\PairsGame\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame_MarkupCompile.cache
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame_MarkupCompile.lref
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\Account.baml
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\AccountForm.baml
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\Game.baml
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\MainWindow.baml
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.g.resources
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.Properties.Resources.resources
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.csproj.GenerateResource.cache
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.csproj.CoreCompileInputs.cache
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.exe
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.pdb
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.csprojResolveAssemblyReference.cache
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\Dimension.g.cs
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\Dimension.baml
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\OpenFile.g.cs
+C:\Projects\PairsGame\PairsGame\obj\Debug\Views\OpenFile.baml
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.Views.About.resources
+C:\Projects\PairsGame\PairsGame\bin\Debug\PairsGame.exe.manifest
+C:\Projects\PairsGame\PairsGame\bin\Debug\PairsGame.application
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.exe.manifest
+C:\Projects\PairsGame\PairsGame\obj\Debug\PairsGame.application

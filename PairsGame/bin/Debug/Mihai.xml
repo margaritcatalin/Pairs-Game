@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<GameViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Slides>
+    <MemoryCards>
+      <CardViewModel>
+        <model Id="3" ImageSource="/PairsGame;component/Resources/Cards/d_image.jpg" />
+        <Id>3</Id>
+        <isViewed>true</isViewed>
+        <isMatched>true</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="5" ImageSource="/PairsGame;component/Resources/Cards/g_image.jpg" />
+        <Id>5</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="6" ImageSource="/PairsGame;component/Resources/Cards/h_image.jpg" />
+        <Id>6</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="0" ImageSource="/PairsGame;component/Resources/Cards/a_image.jpg" />
+        <Id>0</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="3" ImageSource="/PairsGame;component/Resources/Cards/d_image.jpg" />
+        <Id>3</Id>
+        <isViewed>true</isViewed>
+        <isMatched>true</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="2" ImageSource="/PairsGame;component/Resources/Cards/c_image.jpg" />
+        <Id>2</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="2" ImageSource="/PairsGame;component/Resources/Cards/c_image.jpg" />
+        <Id>2</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="7" ImageSource="/PairsGame;component/Resources/Cards/i_image.jpg" />
+        <Id>7</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="1" ImageSource="/PairsGame;component/Resources/Cards/b_image.jpg" />
+        <Id>1</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="0" ImageSource="/PairsGame;component/Resources/Cards/a_image.jpg" />
+        <Id>0</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="1" ImageSource="/PairsGame;component/Resources/Cards/b_image.jpg" />
+        <Id>1</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="5" ImageSource="/PairsGame;component/Resources/Cards/g_image.jpg" />
+        <Id>5</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="7" ImageSource="/PairsGame;component/Resources/Cards/i_image.jpg" />
+        <Id>7</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="4" ImageSource="/PairsGame;component/Resources/Cards/e_image.jpg" />
+        <Id>4</Id>
+        <isViewed>true</isViewed>
+        <isMatched>true</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="4" ImageSource="/PairsGame;component/Resources/Cards/e_image.jpg" />
+        <Id>4</Id>
+        <isViewed>true</isViewed>
+        <isMatched>true</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+      <CardViewModel>
+        <model Id="6" ImageSource="/PairsGame;component/Resources/Cards/h_image.jpg" />
+        <Id>6</Id>
+        <isViewed>false</isViewed>
+        <isMatched>false</isMatched>
+        <isFailed>false</isFailed>
+      </CardViewModel>
+    </MemoryCards>
+    <canSelect>true</canSelect>
+  </Slides>
+  <Timer>
+    <_playedTimer>
+      <IsEnabled>true</IsEnabled>
+      <Interval />
+    </_playedTimer>
+    <_timePlayed />
+    <Time />
+  </Timer>
+  <GameInfo>
+    <Accounts>
+      <UserList>
+        <Account>
+          <Name>Catalin</Name>
+          <ImgUrl>../Resources/Avatars/Image3.png</ImgUrl>
+          <GamePlay>1</GamePlay>
+          <GameWon>1</GameWon>
+        </Account>
+        <Account>
+          <Name>Mihai</Name>
+          <ImgUrl>../Resources/Avatars/Image6.png</ImgUrl>
+          <GamePlay>35</GamePlay>
+          <GameWon>1</GameWon>
+        </Account>
+        <Account>
+          <Name>Teo</Name>
+          <ImgUrl>../Resources/Avatars/Image5.png</ImgUrl>
+          <GamePlay>0</GamePlay>
+          <GameWon>0</GameWon>
+        </Account>
+      </UserList>
+      <SelectedAccount>1</SelectedAccount>
+      <MaxTime>8</MaxTime>
+    </Accounts>
+    <Gamer>
+      <Name>Mihai</Name>
+      <ImgUrl>../Resources/Avatars/Image6.png</ImgUrl>
+      <GamePlay>35</GamePlay>
+      <GameWon>1</GameWon>
+    </Gamer>
+    <Lost>false</Lost>
+  </GameInfo>
+  <columnDim>4</columnDim>
+  <lineDim>4</lineDim>
+  <MaxTime>0</MaxTime>
+</GameViewModel>

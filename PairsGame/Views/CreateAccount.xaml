@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="PairsGame.Views.CreateAccount"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:PairsGame.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <vm:CreateAccViewModel x:Key="CreateAcc"/>
+            <BitmapImage x:Key="Image1Source" UriSource="../Resources/Avatars/Image1.png" />
+            <BitmapImage x:Key="Image2Source" UriSource="../Resources/Avatars/Image2.png" />
+            <BitmapImage x:Key="Image3Source" UriSource="../Resources/Avatars/Image3.png" />
+            <BitmapImage x:Key="Image4Source" UriSource="../Resources/Avatars/Image4.png" />
+            <BitmapImage x:Key="Image5Source" UriSource="../Resources/Avatars/Image5.png" />
+            <BitmapImage x:Key="Image6Source" UriSource="../Resources/Avatars/Image6.png" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid DataContext="{Binding Source={StaticResource CreateAcc}}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="44*"/>
+                    <RowDefinition Height="62*"/>
+                    <RowDefinition Height="19*"/>
+                    <RowDefinition Height="67*"/>
+                    <RowDefinition Height="157*"/>
+
+                </Grid.RowDefinitions>
+                <Label Content="Username" HorizontalAlignment="Left" Margin="68,10,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="0.385,-0.333" Height="42" Width="117"/>
+                <TextBox Name="userName" HorizontalAlignment="Left" Height="47" Margin="10,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="244" FontSize="22"/>
+                <Button Content="Create" Name="CreateAcc" HorizontalAlignment="Left" Margin="56,34,0,0" Grid.Row="4" VerticalAlignment="Top" Width="129" FontSize="24" Height="44" Command="{Binding CreateAcc}"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="122*"/>
+                    <RowDefinition Height="32*"/>
+                    <RowDefinition Height="120*"/>
+                    <RowDefinition Height="34*"/>
+                    <RowDefinition Height="21*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"/>
+                    <ColumnDefinition Width="1.0*"/>
+                    <ColumnDefinition Width="0.2*"/>
+                    <ColumnDefinition Width="1.0*"/>
+                    <ColumnDefinition Width="0.2*"/>
+                    <ColumnDefinition Width="1.0*"/>
+                    <ColumnDefinition Width="0.2*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="{StaticResource Image1Source}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Height="102" Margin="10,10,0,0" VerticalAlignment="Top" Width="119"/>
+                <Image Source="{StaticResource Image2Source}" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left" Height="102" Margin="10,10,0,0" VerticalAlignment="Top" Width="119"/>
+                <Image Source="{StaticResource Image3Source}" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Left" Height="102" Margin="10,10,0,0" VerticalAlignment="Top" Width="119"/>
+                <Image Source="{StaticResource Image4Source}" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="119"/>
+                <Image Source="{StaticResource Image5Source}" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="119"/>
+                <Image Source="{StaticResource Image6Source}" Grid.Column="5" Grid.Row="3" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="119"/>
+                <RadioButton Name="Image1" Content="Image1" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="24" Width="119" Grid.RowSpan="2"/>
+                <RadioButton Name="Image2" Content="Image2" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="24" Width="119" Grid.RowSpan="2"/>
+                <RadioButton Name="Image3" Content="Image3" Grid.Row="2" Grid.Column="5" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="24" Width="119" Grid.RowSpan="2"/>
+                <RadioButton Name="Image4" Content="Image4" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="24" Width="119"/>
+                <RadioButton Name="Image5" Content="Image5" Grid.Row="4" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="24" Width="119"/>
+                <RadioButton Name="Image6" Content="Image6" Grid.Row="4" Grid.Column="5" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="24" Width="119"/>
+
+            </Grid>
+        </Grid>
+        <Label Grid.Row="0" Content="Create Account" HorizontalAlignment="Left" Margin="282,10,0,0" VerticalAlignment="Top" FontSize="36"/>
+    </Grid>
+</UserControl>

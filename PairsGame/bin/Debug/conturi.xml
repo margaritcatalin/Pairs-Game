@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfAccount xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Account>
+    <Name>Catalin</Name>
+    <ImgUrl>../Resources/Avatars/Image3.png</ImgUrl>
+    <GamePlay>12</GamePlay>
+    <GameWon>1</GameWon>
+  </Account>
+  <Account>
+    <Name>Mihai</Name>
+    <ImgUrl>../Resources/Avatars/Image6.png</ImgUrl>
+    <GamePlay>38</GamePlay>
+    <GameWon>1</GameWon>
+  </Account>
+  <Account>
+    <Name>Teo</Name>
+    <ImgUrl>../Resources/Avatars/Image5.png</ImgUrl>
+    <GamePlay>0</GamePlay>
+    <GameWon>0</GameWon>
+  </Account>
+</ArrayOfAccount>

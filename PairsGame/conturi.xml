@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfAccount xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Account>
+    <Name>Catalin</Name>
+    <ImgUrl>../Resources/Avatars/Image1.png</ImgUrl>
+  </Account>
+  <Account>
+    <Name>Mihai</Name>
+    <ImgUrl>../Resources/Avatars/Image6.png</ImgUrl>
+  </Account>
+  <Account>
+    <Name>Teo</Name>
+    <ImgUrl>../Resources/Avatars/Image5.png</ImgUrl>
+  </Account>
+</ArrayOfAccount>
