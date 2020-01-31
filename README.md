@@ -1,2 +1,2 @@
 # Pairs Game
-[![PairsGame](https://www.solarbayer.com/images/videos/play-image.png)](https://www.youtube.com/watch?v=N39MGbe2AA0)
+[![PairsGame](https://johnlagoudakis.com/wp-content/uploads/2016/06/click-here-to-play-640x200.png)](https://www.youtube.com/watch?v=N39MGbe2AA0)
