@@ -1,2 +1,2 @@
 # Pairs Game
-[![PairsGame](http://www.videoprintbrochures.com/Playme.jpg)](https://www.youtube.com/watch?v=N39MGbe2AA0)
+[![PairsGame](https://www.solarbayer.com/images/videos/play-image.png)](https://www.youtube.com/watch?v=N39MGbe2AA0)
